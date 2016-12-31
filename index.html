@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+        <html>
+        <head>
+            <title>Yeti's Timestamp Page</title>
+            <style>
+                body {
+                    background-color: #00E8DB;
+                }
+                
+                h1 {
+                    background-color: black;
+                    color: white;
+                    font-family: monospace;
+                    font-size: 3em;
+                    padding: 4px;
+                }
+        
+                p {
+                    font-family: monospace, sans-serif;
+                    font-size: 1.3em;
+                    margin-left: 4px;
+                }
+        
+                .container {
+                    width: 100%;
+                    text-align: center;
+                }
+        
+                .mid-container {
+                    width: 80%;
+                    text-align: left;
+                    display: inline-block;
+                    background-color: #217CFF;
+                }
+        
+                .example {
+                    background-color: pink;
+                    color: red;
+                }
+                
+                .date {
+                    width: 100%;
+                    text-align: center;
+                }
+        
+            </style>
+        </head>
+        <body>
+        <div class="container">
+            <div class="mid-container">
+                <h1>Yeti's Timestamp Generator</h1>
+                <p>Add a natural-language date</p>
+                <p class="example">ie: "February 14, 1998"</p>
+                <p>or a unix timecode</p>
+                <p class="example">887432400000</p>
+                <p> and we'll return an object that gives both</p>
+                <p class="example">{"unix": 887432400000, "natural": "February 14, 1998"}</p>
+                <p><em>[note that the unix timestamp will represent your local timezone]</em></p>
+            </div>
+        </div>
+        </body>
+        </html>
