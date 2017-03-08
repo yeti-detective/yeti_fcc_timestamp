@@ -2,6 +2,8 @@ var express = require('express');
 var app = express();
 var fs = require('fs');
 
+var port = process.env.PORT || 3000;
+
 var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 var hTml =  fs.readFileSync('index.html').toString();
 var dateObj = {};
@@ -31,6 +33,6 @@ app.get('*', function(req, res){
     res.send(hTml);
 });
 
-app.listen(3000, function(){
-    console.log('Timestamp app listening on port 3000!');
+app.listen(port, function(){
+    console.log('Timestamp app listening on port ' + port);
 })

@@ -1,0 +1,24 @@
+{
+  "name": "yeti_fcc_timestamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeti-detective/yeti_fcc_timestamp.git"
+  },
+  "author": "Christopher Brown",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeti-detective/yeti_fcc_timestamp/issues"
+  },
+  "homepage": "https://github.com/yeti-detective/yeti_fcc_timestamp#readme"
+}
