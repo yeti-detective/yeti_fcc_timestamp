@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/yeti-detective/yeti_fcc_timestamp/issues"
   },
-  "homepage": "https://github.com/yeti-detective/yeti_fcc_timestamp#readme"
+  "homepage": "https://github.com/yeti-detective/yeti_fcc_timestamp#readme",
+  "engines": {
+    "node": "6.11.1"
+  }
 }
